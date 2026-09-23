@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Build settings and the common game references live in Directory.Build.props at the mod root.
+       This file only names the plugin. -->
+  <PropertyGroup>
+    <AssemblyName>CompactInventory</AssemblyName>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+</Project>
