@@ -2,7 +2,7 @@
 
 A mod for the Steam game *Survival Log* that makes each item take one cell (1x1) in every bag grid: the character bag, each storage, and every other panel that shows a bag grid. A large item such as Whole Lamb or Rack of Ribs takes the same one cell as a small item, so you manage inventory by item count and weight, not by shape.
 
-Items already in an existing save also become 1x1 when you load that save with the mod installed. The mod changes item grid size; it does not change item weight, stack limits, bag sizes, or trade value.
+Items already in an existing save also become 1x1 when you load that save with the mod installed. The mod changes item grid size; it does not change item weight, stack limits, container sizes, or trade value.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ The [BepInEx Pack for Survival Log](https://www.nexusmods.com/survivallog/mods/1
 
 Delete `CompactInventory.dll` from the `BepInEx\plugins` folder.
 
-Before uninstalling, back up your save and spread out or remove items from crowded bags, then save. Items regain their normal size on the next load. The game may rearrange items or drop some beside storage. Check the ground afterward. Making room may help, but is not guaranteed to prevent this.
+Before uninstalling, back up your saves (the folder `%USERPROFILE%\AppData\LocalLow\LLS\SLGame\Saves`), then spread out or remove items from crowded containers and save. Items regain their normal size on the next load. The game may rearrange items or drop some on the floor beside the container. Check the floor afterward. Making room may help, but is not guaranteed to prevent this.
 
 ## Build
 
