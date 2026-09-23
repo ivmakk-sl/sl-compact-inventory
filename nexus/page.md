@@ -24,4 +24,4 @@ Tracks the mod's Nexus page details.
 - Full description: `description.bbcode` (paste into the editor's raw BBCode mode).
 - Changelog: none for `1.0.0`. The first release has nothing to change. `changelog.txt` starts with the release that follows.
 - Background: `images/banner.jpg` (1300x372). Set as the mod page background.
-- Gallery images (1920x1080): `images/sl_compact_inventory_before.jpg` (without the mod, day 29, normal item sizes), `images/sl_compact_inventory_after.jpg` (with the mod, same save and day, every item 1x1), `images/sl_compact_inventory_s2.jpg` (with the mod, day 22, backpack and Storage Rack, every item 1x1), and `images/sl_compact_inventory_thumb.jpg` (title card, pick as the mods-grid thumbnail). See `images/README.md` for each role.
+- Gallery images (1920x1080): `images/sl-compact-inventory-thumb.jpg` (title card, pick as the mods-grid thumbnail) and `images/sl-compact-inventory-comparison.jpg` (the backpack before and after, same save, Day 29). See `images/README.md` for each role.
