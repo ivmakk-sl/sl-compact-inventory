@@ -1,12 +1,10 @@
 [size=5]Description[/size]
-Inventory space is a main limit in [i]Survival Log[/i], and a lot of playtime goes into fitting item shapes into the character bag and every storage. Compact Inventory removes the puzzle: every item takes one cell (1x1) in every bag grid. A large item such as Whole Lamb or Rack of Ribs takes the same one cell as a small item, so you manage inventory by item count and weight, not by shape.
+Compact Inventory makes every item take one cell (1x1) in the character bag and storage grids. A large item such as Whole Lamb or Rack of Ribs takes the same space as a small item, so you manage inventory by item count and weight instead of shape.
 
 [size=5]Main features[/size]
 [list]
-[*][b]Every bag is 1x1.[/b] The character bag, each storage, and every other panel that shows a bag grid.[/*]
-[*][b]Existing saves included.[/b] Items already in a save become 1x1 the first time you load that save with the mod installed, at their saved position.[/*]
-[*][b]Nothing else changes.[/b] Item weight, stack limits, bag sizes, trade value, and every other item stat or game rule stay the same. Only the grid size changes.[/*]
-[*][b]No configuration.[/b] 1x1 is the only mode.[/*]
+[*][b]Existing saves included.[/b] Items already in a save become 1x1 when you load it with the mod installed.[/*]
+[*][b]Other inventory limits stay the same.[/b] The mod does not change item weight, stack limits, or bag sizes.[/*]
 [/list]
 
 [size=5]Requirements[/size]
@@ -25,7 +23,7 @@ Inventory space is a main limit in [i]Survival Log[/i], and a lot of playtime go
 [size=5]Uninstall[/size]
 Delete [font=Courier New]CompactInventory.dll[/font] from the [font=Courier New]BepInEx\plugins[/font] folder.
 
-Before you remove the mod, back up your save and give each large item its own free space in each bag, so items do not sit close together. Once the mod is gone, a full bag no longer has room for every item at its real size. In testing, the game's own load-repair moved what it could and dropped the rest on the ground next to the storage; no item was seen deleted, but the save was marked [font=Courier New]suspect[/font] in the game's own report. Making room before removal avoids this.
+Before uninstalling, back up your save and spread out or remove items from crowded bags, then save. Items regain their normal size on the next load. The game may rearrange items or drop some beside storage. Check the ground afterward. Making room may help, but is not guaranteed to prevent this.
 
 [size=5]Source and license[/size]
 Open source under GPL-3.0: [url=https://github.com/ivmakk-sl/sl-compact-inventory]github.com/ivmakk-sl/sl-compact-inventory[/url]

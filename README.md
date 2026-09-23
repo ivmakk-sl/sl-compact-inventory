@@ -2,9 +2,7 @@
 
 A mod for the Steam game *Survival Log* that makes each item take one cell (1x1) in every bag grid: the character bag, each storage, and every other panel that shows a bag grid. A large item such as Whole Lamb or Rack of Ribs takes the same one cell as a small item, so you manage inventory by item count and weight, not by shape.
 
-Items already in an existing save also become 1x1 the first time you load that save with the mod installed, at their saved position. The mod does not change item weight, stack limits, bag sizes, trade value, or any other item stat or game rule - only the grid size.
-
-The mod has no configuration. 1x1 is the only mode. The only settings entry is `General` / `Verbose`, a debug-log switch that only controls log detail, not behavior.
+Items already in an existing save also become 1x1 when you load that save with the mod installed. The mod changes item grid size; it does not change item weight, stack limits, bag sizes, or trade value.
 
 ## Requirements
 
@@ -20,7 +18,7 @@ The [BepInEx Pack for Survival Log](https://www.nexusmods.com/survivallog/mods/1
 
 Delete `CompactInventory.dll` from the `BepInEx\plugins` folder.
 
-Before you remove the mod, back up your save and make room in each bag: give each item that is large without the mod its own free space, so it does not sit close to other items. Once the mod is gone and you load the save, every item goes back to its normal size, and a full bag no longer has room for all its items. The game's own load-repair moves the items it can to a free spot in the same bag. In our test, the items that did not fit were dropped on the ground next to their storage, and the bags were rearranged. We did not see an item deleted, but check the ground near each storage and pick the items up. The load-repair also marks the save `suspect` in its own report (it can also give `tampered`); what that report leads to is not known. Making room before removal, and keeping a backup, avoids all of this.
+Before uninstalling, back up your save and spread out or remove items from crowded bags, then save. Items regain their normal size on the next load. The game may rearrange items or drop some beside storage. Check the ground afterward. Making room may help, but is not guaranteed to prevent this.
 
 ## Build
 
